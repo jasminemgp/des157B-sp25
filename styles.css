@@ -1,0 +1,267 @@
+h1, h2, h3, p, nav ul {
+
+    margin: 0;
+   
+    padding: 0;
+   
+   /* this removes default margin/padding
+   
+    from these elements. You might want to add
+   
+    a few others in here.*/
+   
+   }
+   
+   img {
+   
+    display: block;
+   
+    max-width: 100%;
+   
+    height: auto;
+   
+   /* this sets images as block elements
+   
+    and makes sure they don't bust out of
+   
+    their containers, and that they maintain
+   
+    their aspect ratio. */
+   
+   }
+   
+   nav ul li a {
+   
+    list-style-type: none;
+    text-decoration: none;
+   
+   /* gets rid of bullets */
+   
+   }
+
+   h1 {
+    padding-top: 60px;
+    padding-bottom:  10px;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+    
+    
+   }
+
+   h1 .h1Ucase {
+    font-family: "Ballet";
+    font-size: 48px;
+   }
+
+   #h1J {
+    color: #6989B9;
+   }
+
+   body.switch #h1J {
+    color: #8CB4EF;
+   }
+
+
+   #h1G {
+    color: #6B72B7;
+   }
+
+   body.switch #h1G {
+    color: #8C96EF;
+   }
+
+   #h1P {
+    color: #6B72B7;
+   }
+
+   body.switch #h1P {
+    color: #A58CEF;
+   }
+
+   h1 .h1Lcase {
+    font-family: "Instrument Serif", serif;
+    font-style: italic;
+    font-weight: 250;
+    color: #8C8B8B;
+   }
+
+   body.switch h1 .h1Lcase {
+    font-family: "Instrument Serif", serif;
+    font-style: italic;
+    font-weight: 250;
+    color: #C8C8C8;
+   }
+
+   h2 {
+    font-family: "Instrument Serif", serif;
+    font-size: 26px;
+    font-weight: 250;
+    color: #8C8B8B;
+   }
+
+   body.switch h2 {
+    font-family: "Instrument Serif", serif;
+    font-size: 26px;
+    font-weight: 250;
+    color: #C8C8C8;
+   }
+
+
+   h3 {
+    font-family: "Instrument Serif", serif;
+    font-size: 24px;
+    font-weight: 200;
+   }
+
+    #ministudios h3 {
+    color: #6989B9;
+   }
+
+   body.switch #ministudios h3 {
+    color: #8CB4EF;
+   }
+
+   #toolkit h3 {
+    color: #6B72B7;
+   }
+
+   body.switch #toolkit h3 {
+    color: #8C96EF;
+   }
+
+   #research h3 {
+    color: #7C70C0;
+   }
+
+   body.switch #research h3 {
+    color: #9B8CEF;
+   }
+
+   #development h3 {
+    color: #7D6BB5;
+   }
+
+   body.switch #development h3 {
+    color: #A58CEF;
+   }
+
+   #capstone h3 {
+    color: #8264A8;
+   }
+
+   body.switch #capstone h3 {
+    color: #B98CEF;
+   }
+
+   ul, li {
+    font-family: "Instrument Serif", serif;
+    font-size: 18px;
+    display: flex;
+   }
+
+
+   body {
+    margin: auto;
+    background-color: #EEEEEE;
+   }
+
+   body.switch {
+    background-color: #161616;
+    color: #BEBEBE;
+    }
+
+   header {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+
+
+   main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em auto;
+   }
+
+    .assignmentRow{
+    gap: 12px;
+    padding: 12px 0px;
+   }
+
+   footer {
+    font-family: "Instrument Serif", serif;
+    font-size:18px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    }
+
+   button {
+    font-family: "Instrument Serif", serif;
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 25px;
+    border-color: #d2d2d2;
+    background-color: #d2d2d2;
+   }
+
+   body.switch button {
+    font-family: "Instrument Serif", serif;
+    padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 25px;
+    border-color: #3a3a3a;
+    background-color: #1c1c1c;
+   }
+
+   /* images switch 1 miffy */
+   body #miffy {
+    width: 400px;
+    height: auto;
+   }
+
+   body.switch #miffy {
+    width: 400px;
+    height: auto;
+   }
+
+
+
+   /* animations on link hovers! */
+
+   section a {
+    box-shadow: inset 0 0 0 0 #d2d2d2;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    color: #828282;
+    }
+
+    section a:hover {
+    box-shadow: inset 300px 0 0 0 #d2d2d2;
+    color: #828282;
+    }
+
+    section.switch a {
+    box-shadow: inset 0 0 0 0 #d2d2d2;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    color: #BEBEBE;
+    }
+    
+    section.switch a:hover {
+    box-shadow: inset 300px 0 0 0 #2e2e2e;
+    color: #BEBEBE;
+    }
+
+    
+
+   
+
+
+
+   
