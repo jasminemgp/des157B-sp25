@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+    }
+    
+    .fa-music {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 36px;
+        color: rgb(24, 0, 0);
+    }
+    
+    /* this makes the mouse turn pointer style when hovered over the fish */
+    .fa-music:hover {
+        cursor: pointer;
+    }
+
+    .poem p{
+        position: absolute;
+        transition: 2.5s;
+
+    }
+
+    #line1 {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        color: rgb(135, 0, 0);
+        font-family: "Pinyon Script";
+        font-size: 3em;
+    }
+
+    #line2 {
+        position: absolute;
+        bottom: 30%;
+        left: 30%;
+        color: rgba(163, 0, 0, 0.688);  
+        font-family: "Pinyon Script";
+        font-size: 10em;
+    }
+
+/*     #img1 {
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        border-radius: 100px;
+    } */
+
+    .hidden {
+        opacity: 0; 
+    }
+
+    .showing {
+        opacity: 1;
+    }
