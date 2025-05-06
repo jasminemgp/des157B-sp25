@@ -1,0 +1,83 @@
+h1, h2, h3, p, nav ul {
+
+    margin: 0;
+   
+    padding: 0;
+   
+   /* this removes default margin/padding
+   
+    from these elements. You might want to add
+   
+    a few others in here.*/
+   
+   }
+   
+   img {
+   
+    display: block;
+   
+    max-width: 100%;
+   
+    height: 309px;
+   
+   /* this sets images as block elements
+   
+    and makes sure they don't bust out of
+   
+    their containers, and that they maintain
+   
+    their aspect ratio. */
+   
+   }
+   
+   nav ul {
+   
+    list-style-type: none;
+   
+   /* gets rid of bullets */
+   
+   }
+   
+   /* You *might* want to convert all elements
+   
+   to box-sizing: border box */
+   
+   * {
+   
+    box-sizing: border-box;
+   
+   }
+
+   body {
+    background-color:#F9F9F9;
+    margin: auto;
+   }
+
+   h1 {
+    color: #565656;
+   }
+
+   h1, h2, h3, p {
+    font-family: "Instrument Serif", serif;
+    text-align: center;
+   }
+
+   section {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+   }
+
+   span {
+    font-family: "Ballet", cursive;
+    color: #871616;
+   }
+
+   .replays{
+    font-family: "Instrument Serif", serif;
+    color: #2C2D63;
+   }
+
+   .topsongs{
+    align-content: center;
+   }
