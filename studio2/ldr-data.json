@@ -1,57 +1,62 @@
 [
     {
        "albumcover":"https://images.genius.com/53b420c1339ffb0cb2f45c348aad3731.1000x1000x1.png",
+       "musicvideo": "https://youtu.be/WJlQ4jt5Fz4?si=zDDzOHAZbDFIIeV5",
        "rankingtitle":"#1 Let the Light In",
-       "replays":"419 replays"
-    },
-    {
-       "albumcover":"h\tps://images.genius.com/ec9b4885a001ea8d64ceb596e7f1a60b.1000x1000x1.png",
-       "rankingtitle":"#2 Thunder",
-       "replays":"380 replays"
-    },
-    {
-       "albumcover":"https://images.genius.com/25268f673e6364f69748e5f7bcc5aaa5.1000x1000x1.png",
-       "rankingtitle":"#3 Diet Mountain Dew",
-       "replays":"355 replays"
-    },
-    {
-       "albumcover":"https://images.genius.com/eb4b2006ef1fa773c1418956ef8fb2d1.1000x1000x1.png",
-       "rankingtitle":"#4 Cinnamon Girl",
-       "replays":"353 replays"
-    },
-    {
-       "albumcover":"https://images.genius.com/c7e999e577d81ec43b7fb8eb523659a9.1000x1000x1.png",
-       "rankingtitle":"#5 Ride",
-       "replays":"254 replays"
-    },
-    {
-       "albumcover":"https://images.genius.com/92e6ef7151a3ece56d2754dd38ef58d3.1000x1000x1.png",
-       "rankingtitle":"#6 White Mustang",
-       "replays":"251 replays"
-    },
-    {
-       "albumcover":"https://images.genius.com/eb4b2006ef1fa773c1418956ef8fb2d1.1000x1000x1.png",
-       "rankingtitle":"#7 The Greatest",
-       "replays":"241 replays"
+       "replays":"419"
     },
     {
        "albumcover":"https://images.genius.com/ec9b4885a001ea8d64ceb596e7f1a60b.1000x1000x1.png",
-       "rankingtitle":"#8 National Anthem",
-       "replays":"240 replays"
+       "musicvideo": "https://youtu.be/atGkMugJaxw?si=6G2N1mhZeR8SGxN2",
+       "rankingtitle":"#2 Thunder",
+       "replays":"380"
     },
     {
        "albumcover":"https://images.genius.com/25268f673e6364f69748e5f7bcc5aaa5.1000x1000x1.png",
+       "musicvideo": "https://youtu.be/qtBxUoUkG8s?si=FviwwyqYJNR3NWre",
+       "rankingtitle":"#3 Diet Mountain Dew",
+       "replays":"355"
+    },
+    {
+       "albumcover":"https://images.genius.com/eb4b2006ef1fa773c1418956ef8fb2d1.1000x1000x1.png",
+       "musicvideo": "https://youtu.be/tQz93eTCpSA?si=o9dHNE6HDZu1eviY",
+       "rankingtitle":"#4 Cinnamon Girl",
+       "replays":"353"
+    },
+    {
+       "albumcover":"https://images.genius.com/c7e999e577d81ec43b7fb8eb523659a9.1000x1000x1.png",
+       "musicvideo": "https://youtu.be/erD8y93Iqos?si=iQKfVIN5-zoE0qCb",
+       "rankingtitle":"#5 Ride",
+       "replays":"254"
+    },
+    {
+       "albumcover":"https://images.genius.com/92e6ef7151a3ece56d2754dd38ef58d3.1000x1000x1.png",
+       "musicvideo": "https://youtu.be/F4ELqraXx-U?si=5nyf3DFzdBAhJH0g",
+       "rankingtitle":"#6 White Mustang",
+       "replays":"251"
+    },
+    {
+       "albumcover":"https://images.genius.com/eb4b2006ef1fa773c1418956ef8fb2d1.1000x1000x1.png",
+       "musicvideo": "https://youtu.be/Ndo8r_Hg_lg?si=DjOILCV1I97Y9KR5",
+       "rankingtitle":"#7 The Greatest",
+       "replays":"241"
+    },
+    {
+       "albumcover":"https://images.genius.com/25268f673e6364f69748e5f7bcc5aaa5.1000x1000x1.png",
+       "musicvideo": "https://youtu.be/sxDdEPED0h8?si=ivHczUhFreyqB3mM",
        "rankingtitle":"#8 National Anthem",
-       "replays":"240 replays"
+       "replays":"240"
     },
     {
        "albumcover":"https://images.genius.com/53b420c1339ffb0cb2f45c348aad3731.1000x1000x1.png",
-       "rankingtitle":"#9 Did you know that there's a tunnel under Ocean Blvd",
-       "replays":"225 replays"
+       "musicvideo": "https://youtu.be/IuY54A3bOmg?si=tZX02Y62491UQGk8",
+       "rankingtitle":"#9 Did you know that...",
+       "replays":"225"
     },
     {
        "albumcover":"https://images.genius.com/078c309b261fe8c4e94b2822610570af.1000x1000x1.png",
-       "rankingtitle":"#10 Let Me Love YoU Like A Woman",
-       "replays":"205 replays"
+       "musicvideo": "https://youtu.be/d-Uvy-aKoao?si=pWA7ucquMBCaZn4y",
+       "rankingtitle":"#10 Let Me Love You ...",
+       "replays":"205"
     }
  ]

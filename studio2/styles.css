@@ -18,7 +18,12 @@ h1, h2, h3, p, nav ul {
    
     max-width: 100%;
 
-    max-height: 200px;
+    max-height: 400px;
+
+    margin-bottom: 8px;
+
+    border-radius: 4px;
+
    
    
    /* this sets images as block elements
@@ -50,14 +55,15 @@ h1, h2, h3, p, nav ul {
    }
 
    body {
-    background-color:#F9F9F9;
+    background-color:#e9e9e9;
     margin: auto;
+    place-items: center;
    }
 
    h1 {
     color: #565656;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     font-size: 42px;
    }
 
@@ -77,12 +83,6 @@ h1, h2, h3, p, nav ul {
    }
 
 
-   section {
-    display: flex;
-    flex: 1;
-    gap: 20px;
-   }
-
    span {
     font-family: "Ballet", cursive;
     color: #871616;
@@ -98,13 +98,30 @@ h1, h2, h3, p, nav ul {
    }
 
    .spacer {
-    margin: 10px;
+    margin: 50px;
    }
 
    #songcontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    max-width: 1300px;
+    margin: auto;
+    padding: 40px;
    }
+
+   .topsongs{
+    transition: all 0.5s;
+    border-radius: 5px;
+    border: 5px;
+    padding: 2px
+   }
+
+    .topsongs:hover{
+        transform: scale(120%);
+    }
+
+    .topsongs img:hover{
+        box-shadow: 0 0 10px rgba(242, 237, 237, 0.695), 0 0 30px #d1dcf6d0;
+    }
 
