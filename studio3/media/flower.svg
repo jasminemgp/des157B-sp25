@@ -1,0 +1,13 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.81">
+<ellipse cx="39.741" cy="17.6369" rx="7.14825" ry="14.6369" fill="#CC536F"/>
+<ellipse cx="39.741" cy="61.2072" rx="7.14825" ry="14.6369" fill="#CC536F"/>
+<ellipse cx="62.2068" cy="39.4221" rx="7.14825" ry="14.6369" transform="rotate(90 62.2068 39.4221)" fill="#CC536F"/>
+<ellipse cx="18.637" cy="39.4221" rx="7.14825" ry="14.6369" transform="rotate(90 18.637 39.4221)" fill="#CC536F"/>
+<ellipse cx="55.294" cy="23.5027" rx="7.14825" ry="14.6369" transform="rotate(43.0517 55.294 23.5027)" fill="#CC536F"/>
+<ellipse cx="25.5504" cy="55.3412" rx="7.14825" ry="14.6369" transform="rotate(43.0517 25.5504 55.3412)" fill="#CC536F"/>
+<ellipse cx="25.249" cy="23.7893" rx="7.14825" ry="14.6369" transform="rotate(-44.1454 25.249 23.7893)" fill="#CC536F"/>
+<ellipse cx="55.5952" cy="55.0543" rx="7.14825" ry="14.6369" transform="rotate(-44.1454 55.5952 55.0543)" fill="#CC536F"/>
+<circle cx="40.0815" cy="39.7623" r="13.6157" fill="#B83452"/>
+</g>
+</svg>
