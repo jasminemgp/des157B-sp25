@@ -20,11 +20,7 @@ p, nav ul {
 
     max-height: 400px;
 
-    margin-bottom: 8px;
-
-    border-radius: 4px;
-  
-   
+    margin-bottom: 8px; 
    /* this sets images as block elements
    
     and makes sure they don't bust out of
@@ -53,6 +49,7 @@ h1 {
     font-weight: 599;
     font-style: italic;
     font-size: 64px;
+    color: #0E4ED7
 }
 
 
@@ -60,6 +57,7 @@ h2 {
     font-family: "avenir-lt-pro", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #3063D1;
 }
 
 h3 {
@@ -71,12 +69,12 @@ h3 {
 
 #gallery {
     font-family: "avenir-lt-pro", sans-serif;
-    font-weight: semibold;
     font-style: normal;
     font-size: 24px;
     display: grid;
     justify-self: end; /* Aligns nav to the right */
-    padding: 20px
+    padding: 10px;
+    margin-top: 5px;
 
 }
 
@@ -93,12 +91,13 @@ h3 {
     font-size: 24px;
     text-align: center;
     margin-top: -16px;
+    color: #656565;
 }
 
 .introYears {
     font-size: 24px;
-    font-style: bold;
     margin-top: -8px;
+    color: #585757;
 }
 
 nav {
@@ -118,6 +117,7 @@ nav {
 
 p {
     font-family: "avenir-lt-pro", sans-serif;
+    color: #656565;
 }
 
 body {
@@ -136,7 +136,6 @@ body {
 .section {
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-content: center;
     text-align: left;
     padding: 20px;
@@ -188,65 +187,34 @@ body {
   color: black;
 }
 
-/* Prediction Wall */
-
-.predictionsForm {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* aligns items to the left */
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 1200px;
-}
-
-
-.predictionBox {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: left; /* aligns items to the left */
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 1200px; /* max width for larger screens */
-    background-color: rgba(182, 188, 221, 0.175);
-    border-radius: 8px;
-} 
-
-.predictionsWall {
-    align-items: left; /* centers the items */
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 1200px; /* max width for larger screens */
-}
-
-
-
-
-
 
 /* am i even using these grids? check later ... */
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* responsive */
+    grid-template-columns: 1fr 1.5fr 2fr; /* two equal columns */
     place-items:start;
     height: 80vh; /* full height for vertical centering */
     box-sizing: border-box; /* includes padding in width/height */
     gap:10px; /* space between sections */
-    padding-top: 150px;
+    padding-top: 100px;
     max-width: 1200px; /* max width for larger screens */
     margin: 0 auto; /* centers the grid */
     font-family: "avenir-lt-pro", sans-serif;
+    
 }
 
 
 
 .outfitDisplay {
     justify-items: center;
-    background-color: rgba(182, 188, 221, 0.175);
-    padding: 10px;
+    background-color: rgba(213, 216, 230, 0.175);
+    padding: 20px 40px;
     border-radius: 8px;
+    max-width: 100%;
 }
+
+
 
 .scroll-grid {
   display: grid;
@@ -265,10 +233,22 @@ body {
 #finalGallery {
     text-align: center;
     font-size: 18px;
-    margin-top: -200px;
+    margin-top: -320px;
+    margin-bottom: 100px;
 }
 
 .list li {
     line-height: 30px;
     color: rgb(75, 75, 75);
+}
+
+a,
+a:visited,
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #557ed5;
 }
