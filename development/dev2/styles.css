@@ -23,8 +23,7 @@ p, nav ul {
     margin-bottom: 8px;
 
     border-radius: 4px;
-
-   
+  
    
    /* this sets images as block elements
    
@@ -36,32 +35,85 @@ p, nav ul {
    
    }
    
-   nav ul {
-   
-    list-style-type: none;
-   
-   /* gets rid of bullets */
-   
-   }
-   
-   /* You *might* want to convert all elements
-   
-   to box-sizing: border box */
-   
-   * {
-   
-    box-sizing: border-box;
-   
-   }
-
    /* end of RESET Styles */
 
+   .spacer {
+    padding: 20px;
+   }
+
+   .sectionSpacer {
+    padding: 250px;
+   }
 
 
-h1, h2 {
+h1 {
+    flex-direction: row;
+    justify-content: center;
+    font-family: "fig-serif", sans-serif;
+    font-weight: 599;
+    font-style: italic;
+    font-size: 64px;
+}
+
+
+h2 {
+    font-family: "avenir-lt-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outfitDisplay h3 {
+    font-family: "avenir-lt-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+#gallery {
+    font-family: "avenir-lt-pro", sans-serif;
+    font-weight: semibold;
+    font-style: normal;
+    font-size: 24px;
+    display: grid;
+    justify-self: end; /* Aligns nav to the right */
+    padding: 20px
+
+}
+
+#intro {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.introText {
+    font-size: 24px;
+    text-align: center;
+    margin-top: -16px;
+}
+
+.introYears {
+    font-size: 24px;
+    font-style: bold;
+    margin-top: -8px;
+}
+
+nav {
     font-family: "fig-serif", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 50px;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 28px;
 }
 
 p {
@@ -72,17 +124,146 @@ body {
    place-content: center;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* responsive */
-    place-items: center;
-    height: 100vh; /* full height for vertical centering */
-    gap: 20px; /* space between sections */
-    padding: 20px
+.s2Header {
+    font-family: "fig-serif", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    max-width: 1200px; /* max width for larger screens */
+    font-size: 32px;
+}
+
+#section3 p {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px; /* max width for larger screens */
+    font-family: "fig-serif", sans-serif; 
+    font-size: 64px;
+    font-weight: 400;
+
+}
+
+#section4scroll {
+  max-width: 1200px;       /* Keeps it narrower than the screen */
+  margin: 0 auto;        /* Centers the nav bar */
+  position: sticky;
+  top: 50px;
+}
+
+#section4scroll ul {
+  display: flex; /* Makes the list items horizontal */
+  gap: 1rem; /* Optional: space between items */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#section4scroll ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-size: 28px;
+  font-family: "fig-serif", sans-serif;
+  flex: 0 0 auto;        /* Prevents items from shrinking */
+}
+
+#section4scroll ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Prediction Wall */
+
+.predictionsForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* aligns items to the left */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
 }
 
 
-.section, h2 {
-  text-align: left;
-  border-radius: 8px;
+.predictionBox {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left; /* aligns items to the left */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px; /* max width for larger screens */
+    background-color: rgba(182, 188, 221, 0.175);
+    border-radius: 8px;
+} 
+
+.predictionsWall {
+    align-items: left; /* centers the items */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px; /* max width for larger screens */
+}
+
+
+
+
+
+
+/* am i even using these grids? check later ... */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* responsive */
+    place-items:start;
+    height: 80vh; /* full height for vertical centering */
+    box-sizing: border-box; /* includes padding in width/height */
+    gap:10px; /* space between sections */
+    padding-top: 150px;
+    max-width: 1200px; /* max width for larger screens */
+    margin: 0 auto; /* centers the grid */
+    font-family: "avenir-lt-pro", sans-serif;
+}
+
+
+
+.outfitDisplay {
+    justify-items: center;
+    background-color: rgba(182, 188, 221, 0.175);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.scroll-grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 200px; /* width of each item */
+  gap: 100px; /* space between items */
+  overflow-y: hidden; /* hides vertical overflow */
+  overflow-x: auto;
+  padding: 1rem;
+  max-width: 1200px;       /* Keeps it narrower than the screen */
+  margin: 0 auto;        /* Centers the nav bar */
+  overflow: scroll;    /* Hides overflow */
+  white-space: wrap;
+}
+
+#finalGallery {
+    text-align: center;
+    font-size: 18px;
+    margin-top: -200px;
 }
